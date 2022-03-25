@@ -1,0 +1,21 @@
+Goal
+
+play rock paper scisorcs with a computer
+
+goal
+
+player chooses rock, papper scisiors via 1, 2, 3
+
+computer chooses at random
+
+decide who wins via rock paper scisor rules
+
+How this will look:
+
+Make a dictinary for rock paper sicosors
+
+User input must be 1,2 or 3
+
+use random module to choose 1, 2, or 3
+
+compare win values

@@ -24,3 +24,8 @@ scissors = '''
       (____)
 ---.__(___)
 '''
+
+rock_paper_scissors = {1: rock, 2: paper, 3: scissors}
+
+
+def game_win_logic (player, computer):
