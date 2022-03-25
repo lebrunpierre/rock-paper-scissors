@@ -1,18 +1,18 @@
 Goal
 
-play rock paper scisorcs with a computer
+play rock paper scissors with a computer
 
 goal
 
-player chooses rock, papper scisiors via 1, 2, 3
+player chooses rock, papper scissors via 1, 2, 3
 
 computer chooses at random
 
-decide who wins via rock paper scisor rules
+decide who wins via rock paper scissors rules
 
 How this will look:
 
-Make a dictinary for rock paper sicosors
+Make a dictionary for rock paper scissors
 
 User input must be 1,2 or 3
 

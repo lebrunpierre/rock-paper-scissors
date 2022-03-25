@@ -1,3 +1,5 @@
+# asciiart
+
 rock = '''
     _______
 ---'   ____)
@@ -25,7 +27,7 @@ scissors = '''
 ---.__(___)
 '''
 
-rock_paper_scissors = {1: rock, 2: paper, 3: scissors}
+dict_rock_paper_scissors = {1: rock, 2: paper, 3: scissors}
 
 
 def is_the_player_the_winner(player, computer):
@@ -35,7 +37,7 @@ def is_the_player_the_winner(player, computer):
     :param computer: computer input
     :return: bool
 
-    Evluates if player wins.
+    Evaluates if player wins.
     returns true if thy did false if the did not
     '''
 
@@ -50,3 +52,22 @@ def is_the_player_the_winner(player, computer):
 
     elif player == computer:
         return "Draw"
+
+    else:
+        return "lost this round"
+
+
+def check_user_input(player_choice= 0):
+    '''
+
+    :param player_choice: input from player
+    :return: new player input
+
+    Will make sure player is choosing predefined values
+    '''
+
+    while True:
+        if player_choice not in dict_rock_paper_scissors:
+            player_choice = int(input("Please choose 1(rock), 2(paper), or 3 (scissors): "))
+        else:
+            return player_choice
