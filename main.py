@@ -23,6 +23,5 @@ def play_game():
 
 
 # Continues to play the game
-#test
 while True:
     play_game()
